@@ -1,0 +1,11 @@
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\bin\Debug\netcoreapp3.1\FuncExample.exe
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\bin\Debug\netcoreapp3.1\FuncExample.deps.json
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\bin\Debug\netcoreapp3.1\FuncExample.runtimeconfig.json
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\bin\Debug\netcoreapp3.1\FuncExample.runtimeconfig.dev.json
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\bin\Debug\netcoreapp3.1\FuncExample.dll
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\bin\Debug\netcoreapp3.1\FuncExample.pdb
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\obj\Debug\netcoreapp3.1\FuncExample.csprojAssemblyReference.cache
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\obj\Debug\netcoreapp3.1\FuncExample.AssemblyInfoInputs.cache
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\obj\Debug\netcoreapp3.1\FuncExample.AssemblyInfo.cs
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\obj\Debug\netcoreapp3.1\FuncExample.dll
+C:\Users\Robin.Kaiser\source\repos\Auffrischungsworkshop\ActionAndFuncExamples\obj\Debug\netcoreapp3.1\FuncExample.pdb
