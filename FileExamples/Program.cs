@@ -18,17 +18,15 @@ namespace FileExamples
             if (File.Exists(pathAndFileName))
                 Console.WriteLine("Ja, die Datei existiert");
 
-            //File.Encrypt(pathAndFileName);
-
-            using FileStream handle = File.Create(@"C:\Local\stream_file.txt");
+            using (FileStream handle = File.Create(@"C:\Local\stream_file.txt"))
             {
                 handle.WriteByte(40);
                 handle.WriteByte(61);
                 handle.WriteByte(62);
                 handle.Flush();
             }
-
-            using StreamWriter ct = File.CreateText(@"C:\Local\create_text.txt");
+            
+            using (StreamWriter ct = File.CreateText(@"C:\Local\create_text.txt"))
             {
                 ct.WriteLine("hey");
                 ct.WriteLine("hey");

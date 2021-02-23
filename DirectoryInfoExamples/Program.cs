@@ -10,15 +10,19 @@ namespace DirectoryInfoExamples
             string dirName = @"C:\Local\test";
             DirectoryInfo info = new DirectoryInfo(dirName);
 
-            Console.WriteLine(info.Root);
-            Console.WriteLine(info.Extension);
-            Console.WriteLine(info.FullName);
-            Console.WriteLine(info.CreationTime);
+            Console.WriteLine($"Exists: {info.Exists}");
+            Console.WriteLine($"Root: {info.Root}");
+            Console.WriteLine($"Extension: {info.Extension}");
+            Console.WriteLine($"Fullname: {info.FullName}");
+            Console.WriteLine($"Creation time: {info.CreationTime}");
+            Console.WriteLine($"Last Access time: {info.LastAccessTime}");
+            Console.WriteLine($"Last Write time: {info.LastWriteTime}");
 
             DirectoryInfo subdir = info.CreateSubdirectory("subdir");
-
-            DirectoryInfo parent = Directory.GetParent(Path.Combine(dirName, "subdir"));
-            Console.WriteLine($"\nParent is {parent.Name} which does{(parent.Exists ? "" : " not")} exist");
+            // C:\Local\test\subdir
+            DirectoryInfo parent = Directory.GetParent(dirName + "\\" + subdir.Name);
+            Console.WriteLine($"\nCreated subdirectory '{subdir.Name}'");
+            Console.WriteLine($"Parent is {parent.Name} which does{(parent.Exists ? "" : " not")} exist");
 
             Console.WriteLine($"\nDirectories:");
             foreach (string dir in Directory.EnumerateDirectories(dirName))

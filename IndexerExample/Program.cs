@@ -6,14 +6,13 @@ namespace IndexerExample
     {
         static void Main(string[] args)
         {
-            var names = new IndexerClass();
+            IndexerClass names = new IndexerClass();
 
             Console.WriteLine($"First Entry: {names[0]}");
+            Console.WriteLine($"Second Entry: {names[1]}");
 
-
-            Console.ReadLine();
+            Console.ReadKey();
         }
-
     }
 
     class IndexerClass
@@ -22,16 +21,11 @@ namespace IndexerExample
 
         public IndexerClass()
         {
-            this.Names[0] = "Robin Kaiser";
-            this.Names[1] = "Matthias Bruno Fröhlingsdorf";
-            this.Names[2] = "Michael Kaiser";
-            this.Names[3] = "Birgit Emonts-Kaiser";
-            this.Names[4] = "Nicolas Kaiser";
-            this.Names[5] = "Robert Hetzenegger";
-            this.Names[6] = "Robert Müller";
-            this.Names[7] = "Hanz Heizer";
-            this.Names[8] = "Timmy Neutron";
-            this.Names[9] = "Billy Bob";
+            this.Names[0] = "Timothy";
+            this.Names[1] = "Morgan Freeman";
+            this.Names[2] = "Michael DeGhee";
+            this.Names[3] = "Hugh Grant";
+            this.Names[4] = "Jason M.";
         }
 
         public string this[int index]

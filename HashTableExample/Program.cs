@@ -7,7 +7,7 @@ namespace HashTableExample
     {
         static void Main(string[] args)
         {
-            var hs = new Hashtable();
+            Hashtable hs = new Hashtable();
 
             hs.Add(1, "Eins");
             hs.Add(2, "Zwei");

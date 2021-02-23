@@ -6,11 +6,11 @@ namespace EventExample
     {
         static void Main()
         {
-            var bl = new BusinessLogic();
+            BusinessLogic bl = new BusinessLogic();
             bl.ProcessCompleted += MyEventHandler;
             bl.StartSomeProcess();
 
-            System.Console.In.ReadLine();
+            Console.ReadKey();
         }
 
         private static void MyEventHandler()

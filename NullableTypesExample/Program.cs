@@ -14,10 +14,10 @@ namespace NullableTypesExample
             // https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0
             // public struct Nullable<T> where T : struct
 
-            // Standardschreibweise
+            // default syntax
             Nullable<int> num1 = null;
 
-            // Kurzschreibweise
+            // short-hand syntax
             int? num2 = null;
 
             if (num2 == null)
