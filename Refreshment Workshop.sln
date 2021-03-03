@@ -73,13 +73,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionsExamples", "Excep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionsExample", "ExceptionsExample\ExceptionsExample.csproj", "{121B1B3B-672A-4F1A-9E71-5880653E7A0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassesExamples", "AbstractClassesExamples\AbstractClassesExamples.csproj", "{94261C17-E36D-482C-83B1-144C14F85B77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassesExamples", "AbstractClassesExamples\AbstractClassesExamples.csproj", "{94261C17-E36D-482C-83B1-144C14F85B77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExamples", "LinqExamples\LinqExamples.csproj", "{953ABCB9-FA29-40C8-A677-62241FF7D99B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExamples", "LinqExamples\LinqExamples.csproj", "{953ABCB9-FA29-40C8-A677-62241FF7D99B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceExamples", "InheritanceExamples\InheritanceExamples.csproj", "{CFA4996B-C68D-4808-869D-5E470366D0D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWatcherExample", "FileSystemWatcherExample\FileSystemWatcherExample.csproj", "{39EC8241-753A-4535-B06A-41547540961F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemWatcherExample", "FileSystemWatcherExample\FileSystemWatcherExample.csproj", "{39EC8241-753A-4535-B06A-41547540961F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientsExamples", "HttpClientsExamples\HttpClientsExamples.csproj", "{F5BE54A4-BA42-4FF5-9B04-D2C1886773B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +245,10 @@ Global
 		{39EC8241-753A-4535-B06A-41547540961F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39EC8241-753A-4535-B06A-41547540961F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39EC8241-753A-4535-B06A-41547540961F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BE54A4-BA42-4FF5-9B04-D2C1886773B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BE54A4-BA42-4FF5-9B04-D2C1886773B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BE54A4-BA42-4FF5-9B04-D2C1886773B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BE54A4-BA42-4FF5-9B04-D2C1886773B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

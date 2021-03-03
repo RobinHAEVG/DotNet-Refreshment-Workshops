@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.IO;
 using System.Linq;
 using System.Reflection.PortableExecutable;
 
@@ -223,6 +224,7 @@ namespace LinqExamples
                     Console.WriteLine($"\t{person.FirstN} {person.LastN}");
                 }
             }
+
             //foreach (IGrouping<string, Person> grouping in result2)
             //{
             //    Console.WriteLine($"All people with first name {grouping.Key}");
