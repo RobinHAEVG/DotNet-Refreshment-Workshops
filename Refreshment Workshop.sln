@@ -83,7 +83,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemWatcherExample", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientsExamples", "HttpClientsExamples\HttpClientsExamples.csproj", "{F5BE54A4-BA42-4FF5-9B04-D2C1886773B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMVVMImplementationExample", "CustomMVVMImplementationExample\CustomMVVMImplementationExample.csproj", "{8F668C7A-2A2D-4E57-99FA-81BF59669281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomMVVMImplementationExample", "CustomMVVMImplementationExample\CustomMVVMImplementationExample.csproj", "{8F668C7A-2A2D-4E57-99FA-81BF59669281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessWpfExample", "ProcessWpfExample\ProcessWpfExample.csproj", "{809E1164-5668-4141-8C65-DA57049F88F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{8F668C7A-2A2D-4E57-99FA-81BF59669281}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F668C7A-2A2D-4E57-99FA-81BF59669281}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F668C7A-2A2D-4E57-99FA-81BF59669281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809E1164-5668-4141-8C65-DA57049F88F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809E1164-5668-4141-8C65-DA57049F88F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809E1164-5668-4141-8C65-DA57049F88F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809E1164-5668-4141-8C65-DA57049F88F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

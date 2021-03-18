@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProcessExamples": {
+      "commandName": "Project",
+      "commandLineArgs": "p1 p2 p3"
+    }
+  }
+}
